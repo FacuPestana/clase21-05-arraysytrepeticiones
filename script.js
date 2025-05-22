@@ -13,7 +13,7 @@ console.log(frutas)
 let nombres = ['Facu', 'Benja', 'Alejo']
 console.log(nombres.length)
 nombres.push('Cristian','Luis')
-console.log(nombres)
+console.log(nombres.length)
 
 //Ejercicio 3  Recorrer un arreglo con for
 
@@ -32,6 +32,7 @@ for (let i = 0; i < numeros.length; i++) {
 console.log("La suma total es:", suma);
 
 //Ejercicio 5 Cargar elementos con prompt()
+
 alert('A continuación se te pedirá que ingreses 5 palabras');
 let palabras = [];
 for (let i = 0; i < 5; i++) {
